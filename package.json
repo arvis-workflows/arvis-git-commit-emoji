@@ -1,0 +1,20 @@
+{
+  "name": "arvis-git-commit-emoji",
+  "version": "0.0.1",
+  "description": "arvis workflow to sort applicable emoji for git commit message quickly.",
+  "keywords": [
+    "arvis-workflow",
+    "arvis",
+    "emoji"
+  ],
+  "author": "liuxinran1008@gmail.com",
+  "license": "MIT",
+  "scripts": {
+		"postinstall": "arvish-init",
+    "prepublishOnly": "arvish-prepublish",
+		"preuninstall": "arvish-cleanup"
+	},
+  "dependencies": {
+    "arvish": ">=0.6.1"
+  }
+}
